@@ -22,6 +22,7 @@ _putchar(mins_remainder + '0');
 minutes++;
 _putchar('\n');
 hours++;
+}
 minutes = 0;
 }
 }
