@@ -1,15 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 /**
- *print_line - prints a straight line
- *@n: parameter
- *Return:returns nothing
+ * print_diagonal - diagonal lines made of backslashes
+ * @n: number of \ to be printed
+ * Return: void
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
-while (n-- > 0)
+int i = 0, ii;
+while (i < n && n > 0)
 {
-putchar('_');
+ii = 0;
+while (ii < i)
+{
+_putchar(' ');
+ii++;
 }
-putchar('\n');
+_putchar('\\');
+_putchar('\n');
+i++;
+if (i == 0)
+_putchar('\n');
 }
