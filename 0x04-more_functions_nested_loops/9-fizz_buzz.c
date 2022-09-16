@@ -29,7 +29,7 @@ if (i != 100)
 putchar(' ');
 }
 i++;
-}				
+}
 putchar('\n');
 return (0);
 }
