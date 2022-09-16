@@ -33,7 +33,8 @@ power = power * 10;
 i++;
 }
 j = power;
-while (j >= 1)									{
+while (j >= 1)
+{
 numchar = (temp / j) % 10;
 _putchar(numchar + '0');
 j = j / 10;
