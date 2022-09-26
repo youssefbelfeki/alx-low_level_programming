@@ -17,7 +17,8 @@ for (b = 0; b <= a; b++)
 if (c == s[b])
 {
 s += b;
-return (s);}
+return (s);
+}
 }
 return ('\0');
 }
