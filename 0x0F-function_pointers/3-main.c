@@ -34,7 +34,8 @@ exit(99);
 if ((*get_op == '/' || *get_op == '%') && (*argv[3] == '0'))
 {
 printf("Error\n");
-exit(100);}
+exit(100);
+}
 res = get_op_func(get_op);
 ans = res(one, two);
 printf("%d\n", ans);
