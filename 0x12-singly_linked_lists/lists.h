@@ -1,4 +1,4 @@
-#ifndef LISTS_Hi
+#ifndef LISTS_H
 #define LISTS_H
 /*
  * File: lists.h
