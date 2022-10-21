@@ -1,17 +1,11 @@
-#include "lists.h"
-#include <stdlib.h>
+#include <stdio.h>
+void __attribute__((constructor)) hare(void);
 /**
- * free_list - Frees a list_t list.
- * @head: A pointer to the list_t list.
+ * hare - Prints a string before the
+ * main function is executed.
  */
-void free_list(list_t *head)
+void hare(void)
 {
-list_t *tmp;
-while (head)
-{
-tmp = head->next;
-free(head->str);
-free(head);
-head = tmp;
-}
+printf("You're beat! and yet, you must allow,\n"
+"I bore my house upon my back!\n");
 }
