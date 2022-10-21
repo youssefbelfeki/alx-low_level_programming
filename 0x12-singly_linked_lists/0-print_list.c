@@ -16,5 +16,6 @@ else
 printf("[%d] %s\n", h->len, h->str);
 nodes++;
 h = h->next;
+}
 return (nodes);
 }
