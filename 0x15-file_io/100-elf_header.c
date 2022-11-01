@@ -266,6 +266,7 @@ close_elf(o);
 dprintf(STDERR_FILENO,
 "Error: `%s`: No such file\n", argv[1]);
 exit(98);
+}
 check_elf(header->e_ident);
 printf("ELF Header:\n");
 print_magic(header->e_ident);
